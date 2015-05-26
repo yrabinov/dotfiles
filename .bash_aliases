@@ -11,24 +11,8 @@ alias o='open . &'
 # other aliases ------------------------------------------
 #
 alias m='mvim'
-
-# fullscreen
-
-alias cdg='cd ~/workspace/fullscreen/Gorilla/'
-alias cdd='cd ~/workspace/fullscreen/Dashboard/'
-alias cda='cd ~/workspace/fullscreen/Accounts/'
-alias cdb='cd ~/workspace/fullscreen/Backoffice/'
-alias cdc='cd ~/workspace/fullscreen/CommentPromotions/'
-alias cde='cd ~/workspace/fullscreen/earnings/'
-alias cds='cd ~/workspace/fullscreen/Statements/'
-alias cdt='cd ~/workspace/fullscreen/teller/'
-alias cdk='cd ~/workspace/fullscreen/keymaster/'
-alias cdf='cd ~/workspace/fullscreen/fullscreen_ui/'
-alias gorilla_dump='curl -o gorilla.dump'
-alias gorilla_restore='pg_restore --verbose --clean --no-acl --no-owner -d gorilla_development gorilla.dump'
-alias dashboard_dump='cd && mongodump -hds035667-a0.mongolab.com:35667 -dfs_dashboard -ufullscreen -pfe11owship -omongobackup && mongorestore --drop -dfullscreen_development mongobackup/fs_dashboard'
-alias prod_gorilla='heroku run console --app fsgorilla'
-alias b='bundle exec'
+alias cdw='cd ~/Workspace'
+alias cdf='cd ~/Workspace/Collab/financials'
 
 # utility
 alias c='clear'
