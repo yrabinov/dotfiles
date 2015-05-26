@@ -26,5 +26,3 @@ NO_COLOUR="\[\033[0m\]"
 
 PS1="$GREEN\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
 
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-eval "$(rbenv init -)"

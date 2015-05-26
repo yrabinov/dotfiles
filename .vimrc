@@ -5,49 +5,49 @@
 
 " Packages
 " =============================================================================
-  set rtp+=~/.vim/vundle.git/
-  call vundle#rc()
+  set rtp+=~/.vim/bundle/Vundle.vim/
+  call vundle#begin()
 
-  Bundle 'gmarik/vundle'
+  Plugin 'gmarik/vundle'
 
-  Bundle 'tpope/vim-endwise'
-  Bundle 'tpope/vim-git'
-  Bundle 'tpope/vim-fugitive'
-  Bundle 'tpope/vim-repeat'
-  Bundle 'tpope/vim-surround'
-  Bundle 'tpope/vim-unimpaired'
-  Bundle 'tpope/vim-abolish'
-  Bundle 'tpope/vim-eunuch'
-  Bundle 'tpope/vim-commentary'
+  Plugin 'tpope/vim-endwise'
+  Plugin 'tpope/vim-git'
+  Plugin 'tpope/vim-fugitive'
+  Plugin 'tpope/vim-repeat'
+  Plugin 'tpope/vim-surround'
+  Plugin 'tpope/vim-unimpaired'
+  Plugin 'tpope/vim-abolish'
+  Plugin 'tpope/vim-eunuch'
+  Plugin 'tpope/vim-commentary'
 
-  Bundle 'ervandew/supertab'
-  Bundle 'michaeljsmith/vim-indent-object'
-  Bundle 'Townk/vim-autoclose'
-  Bundle 'vim-scripts/AutoComplPop'
-  " Bundle 'troydm/easytree.vim'
+  Plugin 'ervandew/supertab'
+  Plugin 'michaeljsmith/vim-indent-object'
+  Plugin 'Townk/vim-autoclose'
+  Plugin 'vim-scripts/AutoComplPop'
+  " Plugin 'troydm/easytree.vim'
 
   " css
-  Bundle 'wavded/vim-stylus'
-  Bundle 'groenewege/vim-less'
+  Plugin 'wavded/vim-stylus'
+  Plugin 'groenewege/vim-less'
   " html
-  Bundle 'tpope/vim-ragtag'
-  Bundle 'digitaltoad/vim-jade'
-  Bundle 'juvenn/mustache'
-  Bundle 'tpope/vim-markdown'
-  " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+  Plugin 'tpope/vim-ragtag'
+  Plugin 'digitaltoad/vim-jade'
+  Plugin 'juvenn/mustache'
+  Plugin 'tpope/vim-markdown'
+  " Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
   " javascript
-  Bundle "pangloss/vim-javascript"
-  Bundle 'kchmck/vim-coffee-script'
+  Plugin 'pangloss/vim-javascript'
+  Plugin 'kchmck/vim-coffee-script'
   " ruby
-  Bundle 'tpope/vim-rake'
-  Bundle 'tpope/vim-rails'
+  Plugin 'tpope/vim-rake'
+  Plugin 'tpope/vim-rails'
 
   " files
-  Bundle 'corntrace/bufexplorer'
-  Bundle 'scrooloose/nerdtree'
+  Plugin 'corntrace/bufexplorer'
+  Plugin 'scrooloose/nerdtree'
 
   " colors
-  Bundle 'tpope/vim-vividchalk'
+  Plugin 'tpope/vim-vividchalk'
   colorscheme vividchalk
 
 " General
@@ -139,7 +139,7 @@
   set scrolloff=5                       " minimum lines to show around cursor
   set sidescrolloff=5                   " min characters to show sideways
   " set cursorline                        " highlight the current cursor line
-  set colorcolumn=+1                    " highlight at 1 past textwidth
+  "set colorcolumn=+1                    " highlight at 1 past textwidth
   set laststatus=2                      " always show the status line
   set noerrorbells                      " shut up already
   set visualbell                        " SHUT UP ALREADY
@@ -161,7 +161,7 @@
   set expandtab                         " turns lead to gold. Er, tabs to spaces
   set nosmarttab                        " go away, tabs. don't come back
   set shiftround                        " round shifts to multiple of indent
-  set textwidth=100                      " wrap at 80 characters
+  "set textwidth                         " wrap at 80 characters
 
   set formatoptions+=n1                 " help fo-table
                                         " defaults: tcq
